@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.task {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.task-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.completed-tasks-table,
+.incomplete-tasks-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.completed-tasks-table, 
+.incomplete-tasks-table, 
+th, 
+td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
